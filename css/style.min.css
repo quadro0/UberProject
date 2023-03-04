@@ -73,10 +73,6 @@
   }
 }
 @media (max-width: 767px) {
-  nav {
-    margin-bottom: 32px;
-    position: fixed;
-  }
   nav .container .menu {
     position: fixed;
     height: 100vh;
@@ -174,7 +170,7 @@
     z-index: 2;
   }
   header nav .container {
-    width: 320px;
+    width: 100%;
   }
   header nav .container .menu {
     width: 85%;
@@ -195,25 +191,25 @@
     top: 32px;
   }
   header .subheader .container {
-    width: 320px;
+    width: 100%;
   }
   section.promo .container {
-    width: 320px;
+    width: 100%;
   }
   section.reason .container {
-    width: 320px;
+    width: 100%;
   }
   section.mobile .container {
-    width: 320px;
+    width: 100%;
   }
   section.uber .container {
-    width: 320px;
+    width: 100%;
   }
   section.require .container {
-    width: 320px;
+    width: 100%;
   }
   section.world .container {
-    width: 320px;
+    width: 100%;
   }
   header nav {
     height: 32px;
@@ -402,7 +398,7 @@
     height: 6px;
   }
   body footer div.menu {
-    width: 320px;
+    width: 100%;
   }
   body footer div.menu .main_menu {
     width: 285px;
